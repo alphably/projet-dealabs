@@ -3,11 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <title>Dealabs.com – Tous les deals, bons plans, réducs et codes promo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
   </head>
   <body>
-    <h1>Dealabs </h1>
-    
+    <h1>Dealabs ! </h1>
 
+
+    <script>
+      if(typeof module === 'object')
+      {
+        window.module = module; 
+        module = undefined;
+      }
+      
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    <script src="js/script.js"></script>
+
+
+    <script>
+      if(window.module) module = window.module;
+    </script>
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')
