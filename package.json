@@ -21,6 +21,9 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "electron-reload": "^1.2.3"
+    "electron-reload": "^1.2.3",
+    "electron": ">=2.0.8"
   }
+  
+
 }
